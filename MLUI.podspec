@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MLUI"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "MercadoLibre mobile ios UI components"
   s.homepage         = "https://github.com/fceldeiro/mobile-ios-ui-v2"
   s.license          = 'MIT'
@@ -25,6 +25,11 @@ Pod::Spec.new do |s|
     }
     circleView.dependency 'MLUI/Core'
   end
+
+    s.subspec 'RedCircleView' do |redCircleView|
+        redCircleView.source_files = 'MLUI/LibraryComponents/RedCircleView/classes/*.{h,m}'
+        redCircleView.dependency 'MLUI/Core'
+    end
 
 
 
