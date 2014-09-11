@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface MLUIRedCircleViewUnitTest : XCTestCase
+@interface MLUISquareViewUnitTest : XCTestCase
 
 @end
 
-@implementation MLUIRedCircleViewUnitTest
+@implementation MLUISquareViewUnitTest
 
 - (void)setUp {
     [super setUp];

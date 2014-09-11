@@ -18,8 +18,8 @@
 		CD141FD219C1517600DBF568 /* MLUI_Unit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD141FD119C1517600DBF568 /* MLUI_Unit_Tests.m */; };
 		CD141FD819C1518900DBF568 /* MLUICircleViewUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD16660319C1464E00EE6243 /* MLUICircleViewUnitTest.m */; };
 		CD141FDA19C152A600DBF568 /* MLUICoreViewUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD141FD919C152A600DBF568 /* MLUICoreViewUnitTest.m */; };
-		CD141FDD19C1533800DBF568 /* MLUIRedCircleViewUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD141FDC19C1533800DBF568 /* MLUIRedCircleViewUnitTest.m */; };
 		CD141FE219C153B900DBF568 /* MLUICircleViewBlueUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD141FE119C153B900DBF568 /* MLUICircleViewBlueUnitTest.m */; };
+		CD64CB3219C15C92009618C6 /* MLUISquareView UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64CB3119C15C36009618C6 /* MLUISquareView UnitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		CD141FD019C1517600DBF568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD141FD119C1517600DBF568 /* MLUI_Unit_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUI_Unit_Tests.m; sourceTree = "<group>"; };
 		CD141FD919C152A600DBF568 /* MLUICoreViewUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUICoreViewUnitTest.m; sourceTree = "<group>"; };
-		CD141FDC19C1533800DBF568 /* MLUIRedCircleViewUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUIRedCircleViewUnitTest.m; sourceTree = "<group>"; };
 		CD141FDE19C153A000DBF568 /* MLUICircleViewBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLUICircleViewBlue.h; sourceTree = "<group>"; };
 		CD141FDF19C153A000DBF568 /* MLUICircleViewBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUICircleViewBlue.m; sourceTree = "<group>"; };
 		CD141FE119C153B900DBF568 /* MLUICircleViewBlueUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUICircleViewBlueUnitTest.m; sourceTree = "<group>"; };
@@ -62,9 +61,10 @@
 		CD1665F519C1413A00EE6243 /* MLUICircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUICircleView.m; sourceTree = "<group>"; };
 		CD1665FA19C1413A00EE6243 /* MLUICoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUICoreView.h; sourceTree = "<group>"; };
 		CD1665FB19C1413A00EE6243 /* MLUICoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUICoreView.m; sourceTree = "<group>"; };
-		CD16660019C1413A00EE6243 /* MLUIRedCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUIRedCircleView.h; sourceTree = "<group>"; };
-		CD16660119C1413A00EE6243 /* MLUIRedCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIRedCircleView.m; sourceTree = "<group>"; };
 		CD16660319C1464E00EE6243 /* MLUICircleViewUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUICircleViewUnitTest.m; sourceTree = "<group>"; };
+		CD64CB2E19C15C36009618C6 /* MLUISquareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUISquareView.h; sourceTree = "<group>"; };
+		CD64CB2F19C15C36009618C6 /* MLUISquareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUISquareView.m; sourceTree = "<group>"; };
+		CD64CB3119C15C36009618C6 /* MLUISquareView UnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MLUISquareView UnitTest.m"; sourceTree = "<group>"; };
 		F4684F6AD44244D9BA15A31A /* libPods-MLUI Unit Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLUI Unit Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,14 +121,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD141FDB19C152D300DBF568 /* unitTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD141FDC19C1533800DBF568 /* MLUIRedCircleViewUnitTest.m */,
-			);
-			path = unitTests;
-			sourceTree = "<group>";
-		};
 		CD16659619C1406400EE6243 = {
 			isa = PBXGroup;
 			children = (
@@ -155,9 +147,9 @@
 		CD1665EF19C1413A00EE6243 /* LibraryComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CD64CB2B19C15C36009618C6 /* SquareView */,
 				CD1665F019C1413A00EE6243 /* CircleView */,
 				CD1665F719C1413A00EE6243 /* Core */,
-				CD1665FD19C1413A00EE6243 /* RedCircleView */,
 			);
 			path = LibraryComponents;
 			sourceTree = "<group>";
@@ -234,30 +226,38 @@
 			path = unitTests;
 			sourceTree = "<group>";
 		};
-		CD1665FD19C1413A00EE6243 /* RedCircleView */ = {
+		CD64CB2B19C15C36009618C6 /* SquareView */ = {
 			isa = PBXGroup;
 			children = (
-				CD1665FE19C1413A00EE6243 /* assets */,
-				CD1665FF19C1413A00EE6243 /* classes */,
-				CD141FDB19C152D300DBF568 /* unitTests */,
+				CD64CB2C19C15C36009618C6 /* assets */,
+				CD64CB2D19C15C36009618C6 /* classes */,
+				CD64CB3019C15C36009618C6 /* unitTests */,
 			);
-			path = RedCircleView;
+			path = SquareView;
 			sourceTree = "<group>";
 		};
-		CD1665FE19C1413A00EE6243 /* assets */ = {
+		CD64CB2C19C15C36009618C6 /* assets */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = assets;
 			sourceTree = "<group>";
 		};
-		CD1665FF19C1413A00EE6243 /* classes */ = {
+		CD64CB2D19C15C36009618C6 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				CD16660019C1413A00EE6243 /* MLUIRedCircleView.h */,
-				CD16660119C1413A00EE6243 /* MLUIRedCircleView.m */,
+				CD64CB2E19C15C36009618C6 /* MLUISquareView.h */,
+				CD64CB2F19C15C36009618C6 /* MLUISquareView.m */,
 			);
 			path = classes;
+			sourceTree = "<group>";
+		};
+		CD64CB3019C15C36009618C6 /* unitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD64CB3119C15C36009618C6 /* MLUISquareView UnitTest.m */,
+			);
+			path = unitTests;
 			sourceTree = "<group>";
 		};
 		E3648E1583E74FC49834BC60 /* Frameworks */ = {
@@ -439,7 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD141FDA19C152A600DBF568 /* MLUICoreViewUnitTest.m in Sources */,
-				CD141FDD19C1533800DBF568 /* MLUIRedCircleViewUnitTest.m in Sources */,
+				CD64CB3219C15C92009618C6 /* MLUISquareView UnitTest.m in Sources */,
 				CD141FD219C1517600DBF568 /* MLUI_Unit_Tests.m in Sources */,
 				CD141FE219C153B900DBF568 /* MLUICircleViewBlueUnitTest.m in Sources */,
 				CD141FD819C1518900DBF568 /* MLUICircleViewUnitTest.m in Sources */,
